@@ -2,17 +2,15 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('background-image-generators.jpg'); /* Replace 'background-image.jpg' with your actual image file */
+    background-image: url('background-image-generators.jpg'); 
     background-size: cover;
     background-position: center;
 }
 
-/* Add this section to styles.css */
-
-/* Add this section to styles.css */
+/
 
 header {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for better readability */
+    background-color: rgba(0, 0, 0, 0.5); /
     color: #fff;
     text-align: center;
     padding: 1em;
@@ -21,10 +19,9 @@ header {
     align-items: center;
 }
 
-/* Add this section to styles.css */
 
 .logo {
-    max-width: 150px; /* Adjust the width of your logo as needed */
+    max-width: 150px; 
     height: auto;
     margin-right: 10px;
 }
@@ -42,22 +39,22 @@ header h1, header p {
 
 section {
     width: 100%;
-    color: #fff; /* Set text color to white for better visibility */
+    color: #fff; 
     padding: 20px;
     box-sizing: border-box;
 }
 
 
 h2 {
-    color: #fff; /* Set text color to white for better visibility */
-    animation: slideIn 2s ease-out forwards; /* Apply the slide-in animation to h2 elements and keep the final state */
+    color: #fff; 
+    animation: slideIn 2s ease-out forwards;
     opacity: 0;
 }
 
 @keyframes slideIn {
     from {
         opacity: 0;
-        transform: translateX(-20px); /* Adjust the initial position */
+        transform: translateX(-20px); 
     }
     to {
         opacity: 1;
@@ -68,7 +65,7 @@ h2 {
 
 p {
     line-height: 1.6;
-    color: #fff; /* Set text color to white for better visibility */
+    color: #fff;
 }
 
 ul {
@@ -84,7 +81,7 @@ ul {
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for better readability */
+    background-color: rgba(0, 0, 0, 0.5); 
     color: #fff;
     text-align: center;
     padding: 1em;
