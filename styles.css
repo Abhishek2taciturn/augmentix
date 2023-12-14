@@ -1,0 +1,94 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background-image-generators.jpg'); /* Replace 'background-image.jpg' with your actual image file */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Add this section to styles.css */
+
+/* Add this section to styles.css */
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for better readability */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Add this section to styles.css */
+
+.logo {
+    max-width: 150px; /* Adjust the width of your logo as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+
+.header-content {
+    text-align: left;
+}
+
+
+
+header h1, header p {
+    margin: 0;
+}
+
+section {
+    width: 100%;
+    color: #fff; /* Set text color to white for better visibility */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+h2 {
+    color: #fff; /* Set text color to white for better visibility */
+    animation: slideIn 2s ease-out forwards; /* Apply the slide-in animation to h2 elements and keep the final state */
+    opacity: 0;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px); /* Adjust the initial position */
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+p {
+    line-height: 1.6;
+    color: #fff; /* Set text color to white for better visibility */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.common-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for better readability */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
